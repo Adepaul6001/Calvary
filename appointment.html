@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookings</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <img src="./images/Calvary logo.png" alt="logo img" />
+      </header>
+      <div class="main-img"></div>
+      <div class="bookings">
+        <div class="bookings-txt"></div>
+        <h2>Book An Appointment</h2>
+        <p>
+          Ready to improve your relationship? Book an appointment, and we’ll
+          confirm your session soon!
+        </p>
+        <div class="option-container">
+          <div class="option">
+            <label for="">Your Name</label>
+            <div>
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="John doe"
+                required
+              />
+            </div>
+          </div>
+          <div class="option">
+            <label for="">Email Address</label>
+            <div>
+              <input
+                type="email"
+                name="Emailaddress"
+                id=""
+                placeholder="Johndoe@gmail.com"
+                required
+              />
+            </div>
+          </div>
+        </div>
+        <div class="option-container">
+          <div class="option">
+            <label for="city">Select a city</label>
+            <div>
+              <select id="city" name="city" required>
+                <option value="" disabled selected>Cities</option>
+                <option value="Ikeja">Ikeja</option>
+                <option value="Maryland">Maryland</option>
+                <option value="Festac">Festac</option>
+                <option value="Lekki">Lekki</option>
+                <option value="Agege">Agege</option>
+              </select>
+            </div>
+          </div>
+          <div class="option">
+            <label for="">Schedule Date</label>
+            <div>
+              <input type="date" name="Emailaddress" id="date" required />
+            </div>
+          </div>
+        </div>
+        <div class="added-msg">
+          <div>
+            <label for="msg">Additional message</label>
+            <div>
+              <textarea name="" id="msg"></textarea>
+            </div>
+            <div id="submit-btn">
+              <button type="submit" id="submit">Book Appointment</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
